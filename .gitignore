@@ -15,6 +15,9 @@ db.sqlite3-journal
            # but we don't want to ignore certain top-level media folder
 /static    # this include...to exclude...
 
+# whole purpose - when first runserver exec'd and settings and cache files
+# created, doesn't bother git - status shows clean tree, thus gitignore
+
 '''also, all of this Nick says isn't needed
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
